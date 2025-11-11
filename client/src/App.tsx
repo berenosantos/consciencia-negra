@@ -8,13 +8,16 @@ import Home from "./pages/Home";
 import NovembroPage from "./pages/NovembroPage";
 import CulturaPage from "./pages/CulturaPage";
 import HistoriaPage from "./pages/HistoriaPage";
+import ConceitsPage from "./pages/ConceitsPage";
 
 function Router() {
+  // make sure to consider if you need authentication for certain routes
   return (
     <Switch>
       <Route path={"/"} component={Home} />
       <Route path={"/20-de-novembro"} component={NovembroPage} />
       <Route path={"/cultura"} component={CulturaPage} />
+      <Route path={"/conceitos"} component={ConceitsPage} />
       <Route path={"/historia"} component={HistoriaPage} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}

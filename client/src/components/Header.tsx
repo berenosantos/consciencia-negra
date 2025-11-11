@@ -19,6 +19,9 @@ export default function Header() {
           <Link href="/cultura" className="hover:text-[#FFD700] transition font-medium text-white">
             Cultura
           </Link>
+          <Link href="/conceitos" className="hover:text-[#FFD700] transition font-medium text-white">
+            Conceitos
+          </Link>
           <Link href="/historia" className="hover:text-[#FFD700] transition font-medium text-white">
             História
           </Link>
