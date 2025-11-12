@@ -4,7 +4,10 @@ interface HistoryItem {
   id: string;
   period: string;
   title: string;
+  description: string;
   content: string;
+  author: string;
+  link: string;
 }
 
 const historyData: HistoryItem[] = [
@@ -12,137 +15,139 @@ const historyData: HistoryItem[] = [
     id: "historia-1",
     period: "1500-1600",
     title: "Chegada e Início da Escravidão",
+    description: "Colonização portuguesa e início do tráfico negreiro",
     content: "Com a colonização portuguesa, africanos foram trazidos ao Brasil como escravizados. Inicialmente, havia maior número de indígenas escravizados, mas a resistência indígena e as epidemias levaram ao aumento do tráfico negreiro. A escravidão africana se tornou o sistema econômico central da colônia.",
+    author: "Instituto Brasileiro de Geografia e Estatística",
+    link: "https://www.ibge.gov.br/",
   },
   {
     id: "historia-2",
     period: "1600-1700",
     title: "Resistência e Quilombos",
+    description: "Formação de comunidades de resistência e liberdade",
     content: "Durante este período, muitos escravizados fugiram e formaram quilombos, comunidades de resistência. O Quilombo dos Palmares, liderado por Zumbi, foi o maior e mais duradouro. Esses quilombos representavam a resistência e a busca por liberdade, desafiando o sistema escravocrata.",
+    author: "Fundação Palmares",
+    link: "https://www.palmares.gov.br/",
   },
   {
     id: "historia-3",
     period: "1700-1800",
     title: "Apogeu do Tráfico Negreiro",
+    description: "Auge do comércio de escravizados africanos",
     content: "O século XVIII foi marcado pelo auge do tráfico negreiro. Milhões de africanos foram trazidos para o Brasil, principalmente para trabalhar nas plantações de cana-de-açúcar. A escravidão se consolidou como sistema econômico e social, moldando profundamente a sociedade brasileira.",
+    author: "Biblioteca Nacional",
+    link: "https://www.bn.gov.br/",
   },
   {
     id: "historia-4",
     period: "1800-1850",
     title: "Movimentos Abolicionistas",
+    description: "Crescimento da resistência contra a escravidão",
     content: "No século XIX, movimentos abolicionistas ganharam força. Intelectuais, religiosos e ativistas começaram a questionar a escravidão. Leis como a Lei Eusébio de Queirós (1850) proibiram o tráfico negreiro. A pressão internacional e interna aumentava para o fim da escravidão.",
+    author: "Planalto Federal",
+    link: "https://www.planalto.gov.br/",
   },
   {
     id: "historia-5",
     period: "1850-1888",
     title: "Caminho para a Abolição",
+    description: "Leis progressivas rumo à liberdade dos escravizados",
     content: "Leis progressivas foram aprovadas: Lei do Ventre Livre (1871), Lei dos Sexagenários (1885). Finalmente, em 13 de maio de 1888, a Princesa Isabel assinou a Lei Áurea, abolindo a escravidão no Brasil. No entanto, a liberdade não trouxe igualdade ou oportunidades para os negros libertos.",
+    author: "Arquivo Nacional",
+    link: "https://www.gov.br/arquivonacional/",
   },
   {
     id: "historia-6",
     period: "1888-1950",
     title: "Pós-Abolição e Marginalização",
+    description: "Período de discriminação sistemática e exclusão",
     content: "Após a abolição, negros enfrentaram discriminação sistemática. Imigrantes europeus receberam terras e oportunidades que foram negadas aos negros. Políticas de branqueamento promoviam a imigração europeia. Negros foram marginalizados economicamente e socialmente, perpetuando desigualdades.",
+    author: "IPEA - Instituto de Pesquisa Econômica Aplicada",
+    link: "https://www.ipea.gov.br/",
   },
   {
     id: "historia-7",
     period: "1950-1988",
     title: "Movimentos Negros Modernos",
-    content: "Movimentos negros se organizaram para lutar contra a discriminação. O Movimento Negro Unificado (MNU), fundado em 1978, foi importante para a conscientização. A Constituição de 1988 reconheceu o racismo como crime inafiançável. Políticas de ações afirmativas começaram a ser discutidas.",
+    description: "Organização e luta por direitos civis e igualdade",
+    content: "A segunda metade do século XX viu o surgimento de movimentos negros organizados. O Movimento Negro Unificado, fundado em 1978, trouxe visibilidade às questões raciais. Intelectuais como Abdias do Nascimento e ativistas lutaram por igualdade racial, educação e representatividade.",
+    author: "Museu Afro Brasil",
+    link: "https://www.museuafrobrasil.org.br/",
   },
   {
     id: "historia-8",
     period: "1988-2024",
-    title: "Luta Contemporânea por Igualdade",
-    content: "Desde a Constituição de 1988, avanços foram conquistados: Lei 10.639/2003 (ensino de história afro-brasileira), Lei 12.288/2010 (Estatuto da Igualdade Racial), cotas em universidades e concursos públicos. Mas a luta continua contra racismo estrutural, desigualdades econômicas e sociais.",
+    title: "Constituição e Políticas de Igualdade",
+    description: "Avanços legais e políticas de ação afirmativa",
+    content: "A Constituição de 1988 proibiu a discriminação racial. Posteriormente, foram implementadas políticas de ação afirmativa como cotas em universidades e concursos públicos. A Lei 10.639/2003 tornou obrigatório o ensino de história afro-brasileira. Apesar dos avanços, a luta pela igualdade racial continua.",
+    author: "Secretaria de Políticas de Promoção da Igualdade Racial",
+    link: "https://www.gov.br/igualdaderacial/",
   },
 ];
 
 export default function HistoriaPage() {
   return (
-    <div className="min-h-screen flex flex-col bg-[#0a0a0a]">
+    <div className="min-h-screen flex flex-col bg-[#FFD700]">
       <Header />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-[#1a1a1a] to-[#0a0a0a] py-16 px-4 text-center text-white border-b-4 border-[#DC143C]">
+      <section className="bg-gradient-to-b from-[#DC143C] to-[#b01030] py-16 px-4 text-center text-white border-b-4 border-[#228B22]">
         <div className="container mx-auto max-w-4xl">
-          <h1 className="text-5xl font-bold mb-4 text-[#FFD700]">História do Povo Negro no Brasil</h1>
-          <p className="text-xl text-gray-200">
-            Uma trajetória de resistência, luta e contribuições fundamentais para a formação da sociedade brasileira
+          <h1 className="text-5xl font-bold mb-4">História</h1>
+          <p className="text-xl text-gray-100">
+            Trajetória do povo negro desde a chegada ao Brasil até os dias atuais
           </p>
         </div>
       </section>
 
-      {/* Timeline Section */}
+      {/* Content Grid */}
       <section className="py-16 px-4 flex-1">
-        <div className="container mx-auto max-w-4xl">
-          <div className="space-y-8">
-            {historyData.map((item, index) => (
-              <div key={item.id} className="flex gap-8">
-                {/* Timeline line and dot */}
-                <div className="flex flex-col items-center">
-                  <div className={`w-4 h-4 rounded-full border-4 border-[#0a0a0a] z-10 ${
-                    index % 4 === 0
-                      ? "bg-[#228B22]"
-                      : index % 4 === 1
-                      ? "bg-[#FFD700]"
-                      : index % 4 === 2
-                      ? "bg-[#DC143C]"
-                      : "bg-[#4169E1]"
-                  }`}></div>
-                  {index < historyData.length - 1 && (
-                    <div className={`w-1 flex-1 my-2 ${
-                      index % 4 === 0
-                        ? "bg-[#228B22]"
-                        : index % 4 === 1
-                        ? "bg-[#FFD700]"
-                        : index % 4 === 2
-                        ? "bg-[#DC143C]"
-                        : "bg-[#4169E1]"
-                    }`} style={{ minHeight: "200px" }}></div>
-                  )}
-                </div>
-
-                {/* Content */}
-                <div className="pb-8">
-                  <div className={`rounded-lg border-2 p-8 hover:border-[#FFD700] transition ${
-                    index % 4 === 0
-                      ? "bg-[#1a1a1a] border-[#228B22]"
-                      : index % 4 === 1
-                      ? "bg-[#1a1a1a] border-[#FFD700]"
-                      : index % 4 === 2
-                      ? "bg-[#1a1a1a] border-[#DC143C]"
-                      : "bg-[#1a1a1a] border-[#4169E1]"
-                  }`}>
-                    <div className="flex items-center gap-4 mb-4">
-                      <span className={`px-4 py-2 font-bold rounded-full text-sm ${
-                        index % 4 === 0
-                          ? "bg-[#228B22] text-white"
-                          : index % 4 === 1
-                          ? "bg-[#FFD700] text-[#0a0a0a]"
-                          : index % 4 === 2
-                          ? "bg-[#DC143C] text-white"
-                          : "bg-[#4169E1] text-white"
-                      }`}>
-                        {item.period}
-                      </span>
-                      <h3 className="text-2xl font-bold text-white">
-                        {item.title}
-                      </h3>
-                    </div>
-                    <p className="text-gray-200 leading-relaxed">
-                      {item.content}
+        <div className="container mx-auto max-w-6xl">
+          <div className="grid md:grid-cols-2 gap-8">
+            {historyData.map((item) => (
+              <a
+                key={item.id}
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group cursor-pointer"
+              >
+                <div className="rounded-lg border-2 border-[#DC143C] p-8 hover:shadow-lg transition h-full flex flex-col bg-white">
+                  <div className="mb-2">
+                    <span className="inline-block px-3 py-1 text-sm font-bold rounded-full bg-[#DC143C] text-white">
+                      {item.period}
+                    </span>
+                  </div>
+                  
+                  <h3 className="text-2xl font-bold mb-2 text-[#DC143C] group-hover:text-[#FFD700] transition">
+                    Texto Referência: {item.title}
+                  </h3>
+                  
+                  {/* Separator line */}
+                  <div className="border-t border-gray-300 my-3"></div>
+                  
+                  <p className="text-[#0a0a0a] mb-4 font-medium">
+                    {item.description}
+                  </p>
+                  <p className="text-[#333333] leading-relaxed flex-1">
+                    {item.content}
+                  </p>
+                  
+                  {/* Author at bottom right */}
+                  <div className="mt-6 pt-4 border-t border-gray-300 text-right">
+                    <p className="text-sm font-semibold text-[#DC143C]">
+                      {item.author}
                     </p>
                   </div>
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#0a0a0a] border-t-4 border-[#228B22] py-8 px-4 text-center text-gray-500">
+      <footer className="bg-[#228B22] border-t-4 border-[#DC143C] py-8 px-4 text-center text-white">
         <p>&copy; 2024 Consciência Negra. Todos os direitos reservados.</p>
       </footer>
     </div>
