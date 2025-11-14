@@ -5,20 +5,28 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
-import NovembroPage from "./pages/NovembroPage";
-import CulturaPage from "./pages/CulturaPage";
+import SocialPage from "./pages/SocialPage";
+import LeisPage from "./pages/LeisPage";
 import HistoriaPage from "./pages/HistoriaPage";
+import CulturaPage from "./pages/CulturaPage";
 import ConceitsPage from "./pages/ConceitsPage";
+import DadosPage from "./pages/DadosPage";
+import NovembroPage from "./pages/NovembroPage";
+import FigurasPage from "./pages/FigurasPage";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
   return (
     <Switch>
       <Route path={"/"} component={Home} />
-      <Route path={"/20-de-novembro"} component={NovembroPage} />
+      <Route path={"/social"} component={SocialPage} />
+      <Route path={"/leis"} component={LeisPage} />
+      <Route path={"/historia"} component={HistoriaPage} />
       <Route path={"/cultura"} component={CulturaPage} />
       <Route path={"/conceitos"} component={ConceitsPage} />
-      <Route path={"/historia"} component={HistoriaPage} />
+      <Route path={"/dados"} component={DadosPage} />
+      <Route path={"/20-de-novembro"} component={NovembroPage} />
+      <Route path={"/figuras"} component={FigurasPage} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

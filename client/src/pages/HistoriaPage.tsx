@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import ContentCard from "@/components/ContentCard";
 
 interface HistoryItem {
   id: string;
@@ -105,42 +106,16 @@ export default function HistoriaPage() {
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-2 gap-8">
             {historyData.map((item) => (
-              <a
+              <ContentCard
                 key={item.id}
-                href={item.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group cursor-pointer"
-              >
-                <div className="rounded-lg border-2 border-[#DC143C] p-8 hover:shadow-lg transition h-full flex flex-col bg-white">
-                  <div className="mb-2">
-                    <span className="inline-block px-3 py-1 text-sm font-bold rounded-full bg-[#DC143C] text-white">
-                      {item.period}
-                    </span>
-                  </div>
-                  
-                  <h3 className="text-2xl font-bold mb-2 text-[#DC143C] group-hover:text-[#FFD700] transition">
-                    Texto Referência: {item.title}
-                  </h3>
-                  
-                  {/* Separator line */}
-                  <div className="border-t border-gray-300 my-3"></div>
-                  
-                  <p className="text-[#0a0a0a] mb-4 font-medium">
-                    {item.description}
-                  </p>
-                  <p className="text-[#333333] leading-relaxed flex-1">
-                    {item.content}
-                  </p>
-                  
-                  {/* Author at bottom right */}
-                  <div className="mt-6 pt-4 border-t border-gray-300 text-right">
-                    <p className="text-sm font-semibold text-[#DC143C]">
-                      {item.author}
-                    </p>
-                  </div>
-                </div>
-              </a>
+                title={item.title}
+                description={item.description}
+                content={item.content}
+                author={item.author}
+                link={item.link}
+                borderColor="border-[#DC143C]"
+                titleColor="text-[#DC143C]"
+              />
             ))}
           </div>
         </div>
