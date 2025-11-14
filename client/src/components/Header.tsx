@@ -3,14 +3,14 @@ import { APP_TITLE } from "@/const";
 
 export default function Header() {
   const sections = [
-    { name: "20 de Novembro", path: "/20-de-novembro", color: "#DC143C" },
-    { name: "Social", path: "/social", color: "#FF6347" },
-    { name: "Leis", path: "/leis", color: "#DC143C" },
-    { name: "História", path: "/historia", color: "#DC143C" },
-    { name: "Cultura", path: "/cultura", color: "#FF6347" },
-    { name: "Conceitos", path: "/conceitos", color: "#228B22" },
-    { name: "Dados", path: "/dados", color: "#228B22" },
-    { name: "Figuras", path: "/figuras", color: "#4169E1" },
+    { name: "20 de Novembro", path: "/20-de-novembro" },
+    { name: "Social", path: "/social" },
+    { name: "Leis", path: "/leis" },
+    { name: "História", path: "/historia" },
+    { name: "Cultura", path: "/cultura" },
+    { name: "Conceitos", path: "/conceitos" },
+    { name: "Dados", path: "/dados" },
+    { name: "Figuras", path: "/figuras" },
   ];
 
   return (
@@ -20,13 +20,12 @@ export default function Header() {
           <span className="text-2xl font-bold text-[#FFD700]">{APP_TITLE}</span>
         </Link>
         
-        <div className="flex items-center gap-2">
-          {sections.map((section) => (
+        <div className="flex items-center gap-6">
+          {sections.map((section, index) => (
             <Link
               key={section.path}
               href={section.path}
-              className="px-3 py-2 rounded-md text-sm font-medium transition hover:opacity-80"
-              style={{ backgroundColor: section.color, color: "white" }}
+              className="font-medium transition hover:opacity-80 text-white"
             >
               {section.name}
             </Link>
@@ -34,5 +33,7 @@ export default function Header() {
         </div>
       </nav>
     </header>
+  );
+}
   );
 }
