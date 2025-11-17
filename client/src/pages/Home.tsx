@@ -28,20 +28,8 @@ export default function Home() {
           <p className="text-2xl text-gray-200 mb-8 leading-relaxed">
             Celebrando a história, cultura e contribuições do povo negro na sociedade brasileira
           </p>
-          <div className="flex gap-4 justify-center flex-wrap">
-            <Link href="/20-de-novembro">
-              <Button className="bg-[#FFD700] hover:bg-[#FFC700] text-[#0a0a0a] font-bold px-8 py-6 text-lg">
-                Conhecer 20 de Novembro
-              </Button>
-            </Link>
-            <Link href="/cultura">
-              <Button variant="outline" className="border-[#228B22] text-[#228B22] hover:bg-[#228B22] hover:text-white px-8 py-6 text-lg">
-                Explorar Cultura
-              </Button>
-            </Link>
-          </div>
         </div>
-      </section>
+      </section>)
 
       {/* Contextualização Section */}
       <section className="bg-[#0a0a0a] py-20 px-4 border-b-4 border-[#DC143C]">
@@ -61,46 +49,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Quick Links Section */}
-      <section className="bg-[#1a1a1a] py-20 px-4 border-b-4 border-[#FFD700]">
-        <div className="container mx-auto max-w-4xl">
-          <h2 className="text-4xl font-bold text-[#FFD700] mb-12 text-center">Explore os Temas</h2>
-          <div className="grid md:grid-cols-3 gap-6">
-            <Link href="/20-de-novembro" className="group">
-              <div className="bg-[#0a0a0a] p-8 rounded-lg border-2 border-[#228B22] hover:border-[#FFD700] transition cursor-pointer h-full">
-                <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-[#FFD700] transition">
-                  20 de Novembro
-                </h3>
-                <p className="text-gray-300">
-                  Dados, leis e figuras históricas que marcaram a luta pela consciência negra
-                </p>
-              </div>
-            </Link>
-            <Link href="/cultura" className="group">
-              <div className="bg-[#0a0a0a] p-8 rounded-lg border-2 border-[#DC143C] hover:border-[#FFD700] transition cursor-pointer h-full">
-                <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-[#FFD700] transition">
-                  Cultura
-                </h3>
-                <p className="text-gray-300">
-                  Expressões artísticas, música, dança e tradições afro-brasileiras
-                </p>
-              </div>
-            </Link>
-            <Link href="/historia" className="group">
-              <div className="bg-[#0a0a0a] p-8 rounded-lg border-2 border-[#4169E1] hover:border-[#FFD700] transition cursor-pointer h-full">
-                <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-[#FFD700] transition">
-                  História
-                </h3>
-                <p className="text-gray-300">
-                  Trajetória do povo negro desde a chegada ao Brasil até os dias atuais
-                </p>
-              </div>
-            </Link>
-          </div>
-        </div>
-      </section>
-
       {/* Footer */}
       <footer className="bg-[#0a0a0a] border-t-4 border-[#228B22] py-8 px-4 text-center text-gray-500">
         <p>&copy; Projeto Desenvolvido por alunos do 10° ano da Escola Pan Americana da Bahia com o intuito de trazer visibilidade à cultura negra.

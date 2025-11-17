@@ -31,7 +31,7 @@ const contentData: ContentItem[] = [
     author: "Instituto Brasileiro de Geografia e Estatística",
     link: "https://www.ibge.gov.br/",
     color: "border-[#DC143C]",
-    titleColor: "text-[#DC143C]",
+    titleColor: "text-[#228B22]",
   },
   {
     id: "nov-3",
@@ -41,7 +41,7 @@ const contentData: ContentItem[] = [
     author: "Fundação Palmares",
     link: "https://www.palmares.gov.br/",
     color: "border-[#4169E1]",
-    titleColor: "text-[#4169E1]",
+    titleColor: "text-[#228B22]",
   },
   {
     id: "nov-4",
@@ -61,7 +61,7 @@ const contentData: ContentItem[] = [
     author: "Instituto do Patrimônio Histórico e Artístico Nacional",
     link: "https://www.iphan.gov.br/",
     color: "border-[#DC143C]",
-    titleColor: "text-[#DC143C]",
+    titleColor: "text-[#228B22]",
   },
   {
     id: "nov-6",
@@ -71,7 +71,7 @@ const contentData: ContentItem[] = [
     author: "Ministério da Educação",
     link: "https://www.gov.br/mec/",
     color: "border-[#4169E1]",
-    titleColor: "text-[#4169E1]",
+    titleColor: "text-[#228B22]",
   },
   {
     id: "nov-7",
@@ -91,13 +91,13 @@ const contentData: ContentItem[] = [
     author: "Biblioteca Nacional",
     link: "https://www.bn.gov.br/",
     color: "border-[#DC143C]",
-    titleColor: "text-[#DC143C]",
+    titleColor: "text-[#228B22]",
   },
 ];
 
 export default function NovembroPage() {
   return (
-    <div className="min-h-screen flex flex-col bg-[#FFD700]">
+    <div className="min-h-screen flex flex-col bg-[#FFD700] text-[#228B22]">
       <Header />
 
       {/* Hero Section */}
@@ -131,7 +131,7 @@ export default function NovembroPage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#228B22] border-t-4 border-[#DC143C] py-8 px-4 text-center text-white">
+      <footer className="bg-[#228B22] border-t-4 border-[#DC143C] py-8 px-4 text-center text-[#228B22]">
         <p>&copy; 2024 Consciência Negra. Todos os direitos reservados.</p>
       </footer>
     </div>

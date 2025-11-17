@@ -92,7 +92,7 @@ export default function HistoriaPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-[#DC143C] to-[#b01030] py-16 px-4 text-center text-white border-b-4 border-[#228B22]">
+      <section className="bg-gradient-to-b from-[#556B2F] to-[#6B8E23] py-16 px-4 text-center text-white border-b-4 border-[#228B22]">
         <div className="container mx-auto max-w-4xl">
           <h1 className="text-5xl font-bold mb-4">História</h1>
           <p className="text-xl text-gray-100">
@@ -113,8 +113,8 @@ export default function HistoriaPage() {
                 content={item.content}
                 author={item.author}
                 link={item.link}
-                borderColor="border-[#DC143C]"
-                titleColor="text-[#DC143C]"
+                borderColor="border-[#6B8E23]"
+                titleColor="text-[#6B8E23]"
               />
             ))}
           </div>

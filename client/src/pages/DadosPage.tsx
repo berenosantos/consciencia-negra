@@ -83,7 +83,7 @@ export default function DadosPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-[#228B22] to-[#1a6b1a] py-16 px-4 text-center text-white border-b-4 border-[#DC143C]">
+      <section className="bg-gradient-to-b from-[#7A5230] to-[#8B5A2B] py-16 px-4 text-center text-white border-b-4 border-[#DC143C]">
         <div className="container mx-auto max-w-4xl">
           <h1 className="text-5xl font-bold mb-4">Dados</h1>
           <p className="text-xl text-gray-100">
@@ -104,8 +104,8 @@ export default function DadosPage() {
                 content={item.content}
                 author={item.author}
                 link={item.link}
-                borderColor="border-[#228B22]"
-                titleColor="text-[#228B22]"
+                borderColor="border-[#8B5A2B]"
+                titleColor="text-[#8B5A2B]"
               />
             ))}
           </div>

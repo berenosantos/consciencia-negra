@@ -83,7 +83,7 @@ export default function FigurasPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-[#4169E1] to-[#3050c0] py-16 px-4 text-center text-white border-b-4 border-[#DC143C]">
+      <section className="bg-gradient-to-b from-[#D87C47] to-[#C76B39] py-16 px-4 text-center text-white border-b-4 border-[#DC143C]">
         <div className="container mx-auto max-w-4xl">
           <h1 className="text-5xl font-bold mb-4">Figuras</h1>
           <p className="text-xl text-gray-100">
@@ -104,8 +104,8 @@ export default function FigurasPage() {
                 content={item.content}
                 author={item.author}
                 link={item.link}
-                borderColor="border-[#4169E1]"
-                titleColor="text-[#4169E1]"
+                borderColor="border-[#C76B39]"
+                titleColor="text-[#C76B39]"
               />
             ))}
           </div>

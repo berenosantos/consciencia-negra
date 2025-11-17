@@ -83,7 +83,7 @@ export default function LeisPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-[#DC143C] to-[#b01030] py-16 px-4 text-center text-white border-b-4 border-[#228B22]">
+      <section className="bg-gradient-to-b from-[#CC7722] to-[#B5651D] py-16 px-4 text-center text-white border-b-4 border-[#228B22]">
         <div className="container mx-auto max-w-4xl">
           <h1 className="text-5xl font-bold mb-4">Leis</h1>
           <p className="text-xl text-gray-100">
@@ -104,8 +104,8 @@ export default function LeisPage() {
                 content={item.content}
                 author={item.author}
                 link={item.link}
-                borderColor="border-[#DC143C]"
-                titleColor="text-[#DC143C]"
+                borderColor="border-[#CC7722]"
+                titleColor="text-[#CC7722]"
               />
             ))}
           </div>
