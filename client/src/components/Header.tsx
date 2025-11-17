@@ -19,14 +19,15 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition">
           <span className="text-2xl font-bold text-[#FFD700]">{APP_TITLE}</span>
         </Link>
-        
+
         <div className="flex items-center gap-6">
-          {sections.map((section, index) => (
+          {sections.map((section) => (
             <Link
               key={section.path}
               href={section.path}
               className="font-medium transition hover:opacity-80 text-white"
-{section.name}
+            >
+              {section.name}
             </Link>
           ))}
         </div>
