@@ -28,6 +28,14 @@ const figurasData: FigureItem[] = [
     link: "https://brasilescola.uol.com.br/historiag/16-personalidades-negras-que-mudaram-a-historia-do-mundo.htm",
   },
   {
+    id: "figuras-99",
+    title: "Dandara dos Palmares: Grande Guerreira",
+    //: "Guerreira e companheira de Zumbi",
+    content: "Dandara dos Palmares foi uma guerreira muito importante na história do Brasil. Ela viveu no Quilombo dos Palmares, no século XVII, que era uma comunidade de pessoas escravizadas que haviam fugido. Dandara lutava ao lado de Zumbi, seu companheiro, para defender o quilombo dos ataques dos portugueses. Além de lutar, Dandara também tomava decisões importantes. Quando o quilombo foi invadido, ela preferiu morrer do que ser escravizada novamente. Essa coragem fez dela um símbolo de resistência e liberdade. No Dia da Consciência Negra, lembramos de Dandara como exemplo da força das mulheres negras. Sua história nos ensina sobre a luta contra a injustiça e a importância de nunca desistir dos nossos valores, baseando-nos na ética e nas leis. Por isso, ela continua inspirando muitas pessoas até hoje. Assim, podemos concluir que ela é uma personagem da história de extrema importância para o dia da consciência negra, sendo indispensável nos dias atuais como figura de inspiração para mulheres afrodescendentes",
+    author: "Mateus Sampaio",
+    link: "https://brasilescola.uol.com.br/historia/dandara-dos-palmares.htm",
+  },
+  {
     id: "figuras-3",
     title: "Legado Zumbi dos Palmare",
     //: "Abolicionista e poeta",
