@@ -34,16 +34,11 @@ export default function Home() {
       {/* Contextualização Section */}
       <section className="bg-[#0a0a0a] py-20 px-4 border-b-4 border-[#DC143C]">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-4xl font-bold text-[#FFD700] mb-8">Contextualização</h2>
+          <h2 className="text-4xl font-bold text-[#FFD700] mb-8">Apresentação</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-[#1a1a1a] p-8 rounded-lg border-2 border-[#228B22]">
               <p className="text-gray-200 leading-relaxed">
-                A Consciência Negra é mais que uma data comemorativa. É um movimento de reflexão sobre a história, identidade e direitos do povo negro. O dia 20 de novembro marca o aniversário da morte de Zumbi dos Palmares, símbolo de resistência contra a escravidão.
-              </p>
-            </div>
-            <div className="bg-[#1a1a1a] p-8 rounded-lg border-2 border-[#4169E1]">
-              <p className="text-gray-200 leading-relaxed">
-                Este site oferece informações sobre dados estatísticos, leis de proteção e figuras históricas que moldaram a história afro-brasileira. Explore as seções para aprender mais sobre essa importante parte da nossa identidade nacional.
+                A sociedade brasileira é constituída de amplitude e variedade. Nessa perspectiva, sua História e suas representações culturais formam uma imensa riqueza, a qual se constitui de manifestações genuínas e de outras assimiladas e/ou adaptadas. Em meio a tantas influências, as africanas destacam-se como uma das mais presentes no cotidiano brasileiro, revelando-se em originalidade, resistência e disponibilidade para o diálogo. Assim, com o intuito de ampliar a aquisição e o compartilhamento de conhecimento a respeito de temas de grande interesse nos debates contemporâneos de interesse local e global, surgiu o Projeto Repertório 10 - Consciência Negra 2025. Para tanto, estudantes desenvolveram pesquisa, exercitaram seleção e análise, escreveram, debateram e construíram esse site.
               </p>
             </div>
           </div>
