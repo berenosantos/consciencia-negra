@@ -22,7 +22,7 @@ export default function ContentCard({
 }: ContentCardProps) {
   const [isOpen, setIsOpen] = useState(false);
 
-  const truncatedContent = content.length > 150 ? content.substring(0, 150) + "..." : content;
+  const truncatedContent = content.length > 150 ? content.substring(0, 450) + "..." : content;
 
   return (
     <>
@@ -30,7 +30,7 @@ export default function ContentCard({
         onClick={() => setIsOpen(true)}
         className={`rounded-lg border-2 ${borderColor} p-8 hover:shadow-lg transition h-full flex flex-col bg-white cursor-pointer group`}
       >
-        <h3 className={`text-2xl font-bold mb-2 ${titleColor} group-hover:text-[#FFD700] transition`}>
+        <h3 className={`text-3xl font-bold mb-2 ${titleColor} group-hover:text-[#FFD700] transition`}>
           Texto Referência: {title}
         </h3>
 
@@ -40,7 +40,7 @@ export default function ContentCard({
         <p className="text-[#0a0a0a] mb-4 font-medium">
           {description}
         </p>
-        <p className="text-[#333333] leading-relaxed flex-1 line-clamp-4">
+        <p className="text-[#333333] leading-relaxed flex-1 line-clamp-4 text-lg md:text-xl">
           {truncatedContent}
         </p>
 
@@ -83,7 +83,7 @@ export default function ContentCard({
             {/* Modal Content */}
             <div className="p-6">
               <div className="border-t-2 border-gray-300 my-4 pt-4">
-                <p className="text-[#333333] leading-relaxed text-lg mb-6">
+                <p className="text-[#333333] leading-relaxed text-lg md:text-xl mb-6">
                   {content}
                 </p>
               </div>
