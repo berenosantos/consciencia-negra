@@ -26,7 +26,7 @@ export default function Home() {
             Consciência Negra
           </h1>
           <p className="text-2xl text-gray-200 mb-8 leading-relaxed">
-            Celebrando a história, cultura e contribuições do povo negro na sociedade brasileira
+            Celebrando história, cultura e contribuições na sociedade brasileira
           </p>
         </div>
       </section>)
@@ -51,8 +51,7 @@ export default function Home() {
       </section>
       {/* Footer */}
       <footer className="bg-[#0a0a0a] border-t-4 border-[#228B22] py-8 px-4 text-center text-gray-500">
-        <p>&copy; Projeto Desenvolvido por alunos do 10° ano da Escola Pan Americana da Bahia com o intuito de trazer visibilidade à cultura negra.
-</p>
+        <p>&copy; Site Desenvolvido por estudantes do 10° ano da Escola Pan Americana da Bahia, no componente curricular Língua Portuguesa, sob a orientaçao do Prot. Chico Mota, Novembro 2025</p>
       </footer>
     </div>
   );
