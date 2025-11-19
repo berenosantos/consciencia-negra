@@ -172,7 +172,7 @@ export default function NovembroPage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#b01030] border-t-4 border-[#DC143C] py-8 px-4 text-center text-[#b01030]">
+      <footer className="bg-[#b01030] border-t-4 border-[#DC143C] py-8 px-4 text-center text-white">
         <p>&copy; Site Desenvolvido por estudantes do 10° ano da Escola Pan Americana da Bahia, no componente curricular Língua Portuguesa, sob a orientaçao do Prof. Chico Mota, em novembro de 2025</p>
       </footer>
     </div>
