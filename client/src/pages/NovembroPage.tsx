@@ -72,17 +72,8 @@ const contentData: ContentItem[] = [
     link: "https://g1.globo.com/mg/minas-gerais/noticia/2024/11/20/consciencia-negra-e-zumbi-dos-palmares-entenda-significado-do-feriado-comemorado-nacionalmente-pela-primeira-vez.ghtml",
     color: "border-[#b01030]",
     titleColor: "text-[#b01030]",
-  }99
-  {
-    id: "nov-6",
-    title: "Educação e Conscientização",
-    //: "Importância da educação sobre história negra",
-    content: "O 20 de novembro é oportunidade para educação sobre história, cultura e contribuições do povo negro. Escolas, universidades e organizações promovem debates, palestras e atividades educativas. Educação é fundamental para combater estereótipos, promover igualdade e formar cidadãos conscientes.",
-    author: "Ministério da Educação",
-    link: "https://www.gov.br/mec/",
-    color: "border-[#b01030]",
-    titleColor: "text-[#b01030]",
   },
+
   {
     id: "nov-7",
     title: "Como surgiu o Dia da Consciência Negra no Brasil ",
@@ -107,7 +98,7 @@ const contentData: ContentItem[] = [
   id: "nov-9",
     title: "Consciência Negra: o que é, origem, história, dia",
     //: "Convite para participação de toda a sociedade",
-    content: "Consciência Negra: o que é, história, dia",
+    content: "A política da Consciência Negra, especialmente com o Movimento Negro Unificado, foi uma das primeiras em organização e influência na década de 1970. Zumbi dos Palmares, um exemplo da luta na aboliçao da escravidão, teve a data de sua morte, datado no dia 20 de novembro, oficializada como Dia Nacional da Consciência Negra pela Lei nº 12.519/2011 que se juntou ao calendário de feriados nacionais do país, aparecendo em 2023 com a Lei nº 14.759. Assim, a Consciência Negra, neste momento, não é apenas um conceito, mas um processo da população negra ser destacada em seu espaço e importância histórica, sendo vista de acordo com sua dignidade e avaliada, já que esta data visa ao combate a anos de descriminação injusta contra a população negra. Além disso, o dia da Consciencia Negra traz consigo diversos valores, dentre eles a valorização da identidade, cultura, história do povo e resistência do negro no Brasil, além de que o processo de luta contra o rascimo é uma longa e gloriosa história.",
     author: "Lamis Cheaito",
     link: "https://brasilescola.uol.com.br/sociologia/consciencia-negra.htm",
     color: "border-[#b01030]",
