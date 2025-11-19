@@ -22,7 +22,7 @@ export default function ContentCard({
 }: ContentCardProps) {
   const [isOpen, setIsOpen] = useState(false);
 
-  const truncatedContent = content.length > 150 ? content.substring(0, 450) + "..." : content;
+  const truncatedContent = content.length > 450 ? content.substring(0, 650) + "..." : content;
 
   return (
     <>
@@ -40,8 +40,8 @@ export default function ContentCard({
         <p className="text-[#0a0a0a] mb-4 font-medium">
           {description}
         </p>
-        <p className="text-[#333333] leading-relaxed flex-1 line-clamp-4 text-lg md:text-xl">
-          {truncatedContent}
+        <p className="text-[#333333] leading-relaxed flex-1 text-lg md:text-xl">
+          {content.length > 450 ? content.substring(0, 450) + "..." : content}
         </p>
 
         {/* Author at bottom right */}

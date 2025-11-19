@@ -90,7 +90,7 @@ export default function ConceitsPage() {
 
       {/* Footer */}
       <footer className="bg-[#228B22] border-t-4 border-[#DC143C] py-8 px-4 text-center text-white">
-        <p>&copy; 2024 Consciência Negra. Todos os direitos reservados.</p>
+        <p>&copy; Site Desenvolvido por estudantes do 10° ano da Escola Pan Americana da Bahia, no componente curricular Língua Portuguesa, sob a orientaçao do Prof. Chico Mota, em novembro de 2025</p>
       </footer>
     </div>
   );

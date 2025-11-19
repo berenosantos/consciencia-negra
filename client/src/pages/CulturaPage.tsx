@@ -35,6 +35,14 @@ const cultureData: CultureItem[] = [
     author: "Lucas Rocha",
     link: "https://www.genera.com.br/blog/influencia-africana/?srsltid=AfmBOoptiMcjqKA6onCp_7QbsjA51757pUk5xxo9SJVNpllSyLWxMnQW",
   },
+   {
+    id: "cultura-31",
+    title: "Fundação Cultural Palmares",
+    //: "Religião de matriz africana que preserva tradições ancestrais",
+    content: "A Fundação Cultural Palmares tem importância imensa para a Consciência Negra no Brasil como principal instituição pública dedicada à cultura afro-brasileira. Desempenha papel fundamental no reconhecimento e preservação do patrimônio cultural afrodescendente, certificando comunidades quilombolas e apoiando expressões artísticas. Desenvolve políticas públicas que valorizam a história e memória da população negra. Atua como referência para educadores, pesquisadores e movimentos sociais, promovendo a igualdade racial. Suas iniciativas combatem o racismo e fortalecem a identidade negra, dando relevância às contribuições africanas na formação nacional. É uma forma de mostrar o compromisso do Estado com a valorização dos afrodescendentes.",
+    author: "Mateus Sampaio",
+    link: "https://www.gov.br/palmares/pt-br/assuntos/noticias/palmares-37-anos-resistencia-memoria-e-futuro-da-cultura-negra-no-brasil",
+  },
   {
     id: "cultura-4",
     title: "Dia da Consciência Negra: 10 expressões do português que geram controvérsia sobre racismo",
@@ -114,7 +122,7 @@ export default function CulturaPage() {
 
       {/* Footer */}
       <footer className="bg-[#228B22] border-t-4 border-[#DC143C] py-8 px-4 text-center text-white">
-        <p>&copy; 2024 Consciência Negra. Todos os direitos reservados.</p>
+        <p>&copy; Site Desenvolvido por estudantes do 10° ano da Escola Pan Americana da Bahia, no componente curricular Língua Portuguesa, sob a orientaçao do Prof. Chico Mota, em novembro de 2025</p>
       </footer>
     </div>
   );

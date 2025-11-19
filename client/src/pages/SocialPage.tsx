@@ -28,6 +28,14 @@ const socialData: SocialItem[] = [
     link: "https://www.gov.br/igualdaderacial/",
   },
   {
+    id: "social-31",
+    title: "Desigualdade Racial com Acesso ao Sistema de Saúde Brasileiro",
+    //: "Religião de matriz africana que preserva tradições ancestrais",
+    content: "Para garantir melhorias na equidade do sistema de saúde do Brasil, é necessário olhar também para as desigualdades que atingem de forma desproporcional a população negra, assim como a documentação das desigualdades. As limitações na abrangência das ações de saúde fazem com que os problemas de saúde mais sérios que afetam essa população negra permaneçam. A Política Nacional de Saúde Integral da População Negra, criada em 2009, é a principal norma para a construção de políticas que visem o atendimento das injustiças e propõe ações que vão da formação de profissionais de saúde à construção de dados em sistemas de saúde desagregados por raça. Porém, verifica-se que a falta de implementação é devida a questões objetivas, como a formação das equipes de saúde e a falta de instrumentos de vigilância. Essas questões objetivas não permitem que o Brasil, na prática, exerça os direitos de união e integridade de todos, já que as particularidades dessa população negra não estão presentes nos serviços de saúde.",
+    author: "Mateus Sampaio",
+    link: "https://www.gov.br/saude/pt-br",
+  },
+  {
     id: "social-3",
     title: "Dia da Consciência Negra: Reflexão e resistência ganham força na Bahia, especialmente em Salvador",
     //: "Importância da presença negra em espaços de poder",
@@ -146,7 +154,7 @@ export default function SocialPage() {
 
       {/* Footer */}
       <footer className="bg-[#228B22] border-t-4 border-[#DC143C] py-8 px-4 text-center text-white">
-        <p>&copy; 2024 Consciência Negra. Todos os direitos reservados.</p>
+        <p>&copy; Site Desenvolvido por estudantes do 10° ano da Escola Pan Americana da Bahia, no componente curricular Língua Portuguesa, sob a orientaçao do Prof. Chico Mota, em novembro de 2025</p>
       </footer>
     </div>
   );

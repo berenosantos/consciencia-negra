@@ -33,12 +33,22 @@ export default function Home() {
 
       {/* Contextualização Section */}
       <section className="bg-[#0a0a0a] py-20 px-4 border-b-4 border-[#DC143C]">
-        <div className="container mx-auto max-w-4xl">
-          <h2 className="text-4xl font-bold text-[#FFD700] mb-8">Apresentação</h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-[#1a1a1a] p-8 rounded-lg border-2 border-[#228B22]">
-              <p className="text-gray-200 leading-relaxed">
-                A sociedade brasileira é constituída de amplitude e variedade. Nessa perspectiva, sua História e suas representações culturais formam uma imensa riqueza, a qual se constitui de manifestações genuínas e de outras assimiladas e/ou adaptadas. Em meio a tantas influências, as africanas destacam-se como uma das mais presentes no cotidiano brasileiro, revelando-se em originalidade, resistência e disponibilidade para o diálogo. Assim, com o intuito de ampliar a aquisição e o compartilhamento de conhecimento a respeito de temas de grande interesse nos debates contemporâneos de interesse local e global, surgiu o Projeto Repertório 10 - Consciência Negra 2025. Para tanto, estudantes desenvolveram pesquisa, exercitaram seleção e análise, escreveram, debateram e construíram esse site.
+          <div className="container mx-auto max-w-6xl">
+            <h2 className="text-4xl font-bold text-[#FFD700] mb-8 text-center">
+              Apresentação
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-[#1a1a1a] p-10 rounded-lg border-2 border-[#228B22] md:col-span-2">
+                <p className="text-gray-200 leading-relaxed text-xl md:text-2xl">
+                  A sociedade brasileira é constituída de amplitude e variedade. Nessa perspectiva, sua História e suas representações culturais formam uma imensa riqueza, a qual se constitui de manifestações genuínas e de outras assimiladas e/ou adaptadas. Em meio a tantas influências, as africanas destacam-se como uma das mais presentes no cotidiano brasileiro, revelando-se em originalidade, resistência e disponibilidade para o diálogo. Assim, com o intuito de ampliar a aquisição e o compartilhamento de conhecimento a respeito de temas de grande interesse nos debates contemporâneos de interesse local e global, surgiu o Projeto Repertório 10 - Consciência Negra 2025. Para tanto, estudantes desenvolveram pesquisa, exercitaram seleção e análise, escreveram, debateram e construíram esse site.
+                </p>
+
+                <p className="mt-6 text-gray-200 leading-relaxed text-xl md:text-2xl">
+                  Leitor, aceite o convite e navegue por saberes atuais e atuantes!
+                </p>
+
+                <p className="mt-6 text-right text-lg md:text-xl font-semibold text-gray-300">
+                  Prof. Chico Mota
               </p>
             </div>
           </div>
