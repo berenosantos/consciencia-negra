@@ -72,8 +72,16 @@ const socialData: SocialItem[] = [
     title: "No Mês da Consciência Negra, ações do Iphan destacam patrimônio e reparação",
     //: "Desigualdades econômicas entre negros e brancos",
     content: "Sob coordenação do Comitê Permanente para Preservação do Patrimônio Cultural de Matriz Africana (Copmaf), unidades deste Instituto realizarão 40 ações em todas as regiões do país. Com o tema 'Patrimônio e reparação', a segunda edição do ciclo de eventos do Instituto do Patrimônio Histórico e Artístico Nacional (Iphan) para o Mês da Consciência Negra está acontecendo, com o objetivo de promover o património cultural de matriz africana, especialmente para o fortalecimento da justiça social e dos direitos da população negra. Ao longo do mês, serão realizadas 40 ações de forma presencial, híbrida e remota.                Para o Copmaf, o tema em questão ocupa um lugar singular no debate sobre patrimônio: por um lado, ele é um testemunho da violência da escravidão, do racismo e da marginalização das práticas culturais negras e indígenas. Por outro lado, ele dá vida às estratégias de resistência, criação e sobrevivência das comunidades. Os eventos terão diferentes formatos, como exposições artísticas, rodas de samba, seminários acadêmicos, oficinas de educação patrimonial, encontros de comunidades tradicionais, entre outros. As ações almejam engajar diversos públicos, desde comunidades quilombolas e povos de terreiro até estudantes, pesquisadores e a sociedade em geral. O ciclo de eventos será inaugurado já no próximo sábado, 10 de novembro, às 9h. A programação reflete um esforço governamental para promover o debate sobre a reparação histórica e fortalecer as políticas de preservação do patrimônio cultural de matriz africana, pilar fundamental da construção do país e da identidade nacional. ",
-    author: "Geddel Filho",
+    author: "Geddel Filho", 
     link: "https://agenciagov.ebc.com.br/noticias/202510/em-eventos-do-mes-da-consciencia-negra-iphan-destaca-patrimonio-e-reparacao",
+  },
+  {
+    id: "social-91",
+    title: "O Dia da Consciência Negra promove a “Consciência” o ano todo?",
+    //: "Desigualdades econômicas entre negros e brancos",
+    content: "O Dia da Consciência Negra é uma data para a reflexão crítica do que, em nosso dia a dia, nos falta para termos uma sociedade mais confortável e menos desigual, menos preconceituosa e, acima de tudo, mais inclusiva para a população negra. As resistências, o lugar que as pessoas negras ocupam e a falta de justiça social são questões que precisam ser abordadas o ano inteiro. As pautas em torno de Zumbi dos Palmares e de Dandara, além de todas as outras que permeiam esta data, trazem uma crítica sobre as condições e as estruturas sociais e, principalmente, as desigualdades que são marcadas pela cor da pele. As estruturas sociais precisam ser reordenadas e as políticas sociais, mudadas. Essas mudanças, e tantas outras, precisam ser incorporadas de forma definitiva para que possamos ter uma sociedade antirracista.",
+    author: "Mateus Sampaio",
+    link: "https://www.geledes.org.br/consciencia-negra-significado",
   },
   {
     id: "social-8",

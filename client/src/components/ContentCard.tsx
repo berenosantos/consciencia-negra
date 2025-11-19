@@ -28,7 +28,7 @@ export default function ContentCard({
     <>
       <div
         onClick={() => setIsOpen(true)}
-        className={`rounded-lg border-2 ${borderColor} p-8 hover:shadow-lg transition h-full flex flex-col bg-white cursor-pointer group`}
+        className={`rounded-lg border-2 ${borderColor} p-8 hover:shadow-lg transition h-full min-h-[400px] flex flex-col bg-white cursor-pointer group`}
       >
         <h3 className={`text-3xl font-bold mb-2 ${titleColor} group-hover:text-[#FFD700] transition`}>
           Texto Referência: {title}

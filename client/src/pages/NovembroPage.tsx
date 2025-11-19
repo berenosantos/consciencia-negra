@@ -64,6 +64,16 @@ const contentData: ContentItem[] = [
     titleColor: "text-[#b01030]",
   },
   {
+    id: "nov-99",
+    title: "Consciência Negra e Zumbi dos Palmares: entenda significado do feriado comemorado nacionalmente pela primeira vez",
+    //: "Expressões culturais que celebram a negritude",
+    content: "Para comemorar o Dia da Consciência Negra o Tribunal da Justiça de Sergipe irá realizar um seminário em prol da equidade racial, para fortalecer a cultura afro-brasileiro no âmbito judicial e também para homenagear o juiz de direito Edinaldo César Santos Júnior, que morreu em junho de 2025 e era uma grande influência em questões raciais, de gênero e do direito da criança e do adolescente. Esse seminário terá por volta de 4 horas de duração, mas a entrada será gratuita e aberta ao público, e incluirá apresentações de dança, curta-metragem, discussões, oficina de turbantes e feira preta.",
+    author: "Letícia Copello",
+    link: "https://g1.globo.com/mg/minas-gerais/noticia/2024/11/20/consciencia-negra-e-zumbi-dos-palmares-entenda-significado-do-feriado-comemorado-nacionalmente-pela-primeira-vez.ghtml",
+    color: "border-[#b01030]",
+    titleColor: "text-[#b01030]",
+  }99
+  {
     id: "nov-6",
     title: "Educação e Conscientização",
     //: "Importância da educação sobre história negra",
