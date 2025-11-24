@@ -74,16 +74,6 @@ const contentData: ContentItem[] = [
     titleColor: "text-[#b01030]",
   },
   {
-    id: "nov-6",
-    title: "Educação e Conscientização",
-    //: "Importância da educação sobre história negra",
-    content: "O 20 de novembro é oportunidade para educação sobre história, cultura e contribuições do povo negro. Escolas, universidades e organizações promovem debates, palestras e atividades educativas. Educação é fundamental para combater estereótipos, promover igualdade e formar cidadãos conscientes.",
-    author: "Ministério da Educação",
-    link: "https://www.gov.br/mec/",
-    color: "border-[#b01030]",
-    titleColor: "text-[#b01030]",
-  },
-  {
     id: "nov-7",
     title: "Como surgiu o Dia da Consciência Negra no Brasil ",
     //: "Desafios persistentes e necessidade de ação",
@@ -181,7 +171,7 @@ export default function NovembroPage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#b01030] border-t-4 border-[#DC143C] py-8 px-4 text-center text-[#b01030]">
+      <footer className="bg-[#b01030] border-t-4 border-[#DC143C] py-8 px-4 text-center text-white">
         <p>&copy; Site Desenvolvido por estudantes do 10° ano da Escola Pan Americana da Bahia, no componente curricular Língua Portuguesa, sob a orientaçao do Prof. Chico Mota, em novembro de 2025</p>
       </footer>
     </div>
