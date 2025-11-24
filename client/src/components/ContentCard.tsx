@@ -40,7 +40,7 @@ export default function ContentCard({
         <p className="text-[#0a0a0a] mb-4 font-medium">
           {description}
         </p>
-        <p className="text-[#333333] leading-relaxed flex-1 text-lg md:text-xl">
+        <p className="text-[#333333] leading-relaxed flex-1 text-lg md:text-xl text-justify">
           {content.length > 450 ? content.substring(0, 450) + "..." : content}
         </p>
 
@@ -83,7 +83,7 @@ export default function ContentCard({
             {/* Modal Content */}
             <div className="p-6">
               <div className="border-t-2 border-gray-300 my-4 pt-4">
-                <p className="text-[#333333] leading-relaxed text-lg md:text-xl mb-6">
+                <p className="text-[#333333] leading-relaxed text-lg md:text-xl mb-6 text-justify">
                   {content}
                 </p>
               </div>
