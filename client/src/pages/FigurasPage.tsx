@@ -56,7 +56,7 @@ const figurasData: FigureItem[] = [
     title: "Lilia Schwarcz - Academia Brasileira de Letras",
     //: "Intelectual, artista e ativista",
     content: "Lilia Schwarcz é uma historiadora, professora, antropóloga e escritora, nascida em São Paulo, 1957. É uma mulher de extrema importância para o dia 20 de novembro, quando se comemora o dia da Consciência Negra. Um dia que deve ser marcado na história pois esse assunto faz parte da origem do nosso país. Lilia Schwarcz enfatiza o topico por meio de  seus livro como ‘’imagens da branquitude; presença da ausência,Nem Preto Nem Branco, Muito Pelo Contrário; cor e raça na sociabilidade Brasileira , olhares Negros: raca e Representacao’’, e muitos outros. Ela é uma mulher branca que tem uma grande importância para a luta antirracista. Lilia já foi uma professora sênior do Departamento de Antropologia da Universidade de São Paulo e Global Scholar e atualmente Visiting Professor em Princeton. Ela usa esta posição de privilégio para denunciar o racismo estrutural e valorizar a história e a cultura negra, que já foi muito apagada pela sociedade brasileira. Lilia  sempre se mostra presente em podcast e entrevista para demonstrar como o racismo foi construído ao longo do tempo  e como ainda afeta o presente. Ao trazer a sua empatia com o papel da branquitude e discutir seus privilégios, ela luta e contrribui para um Brasil mais justo e consciente, onde os negros possam ser ouvidos e respeitados",
-    author: "Instituto de Pesquisa Econômica Aplicada",
+    author: "Maria Eduarda Silva",
     link: "https://www.academia.org.br/academicos/lilia-schwarcz/discurso-de-posse",
   },
   {
