@@ -56,8 +56,8 @@ const dadosData: DataItem[] = [
     title: "TSE – Estatísticas Eleitorais sobre Representatividade Negra (2024)",
     //: "Mortalidade materna entre mulheres negras",
     content: " À medida que o Brasil se aproxima de eleições cada vez mais disputadas e observadas, surge uma pergunta essencial: quem realmente ocupa os espaços de poder no país? O relatório de Estatísticas Eleitorais do TSE (2024) oferece uma resposta reveladora e historicamente significativa. Pela primeira vez, o número de candidatos autodeclarados negros se aproxima da metade do total, um marco que reflete não apenas mudanças institucionais, mas também a força de décadas de mobilização social. Esse avanço é impulsionado por medidas recentes, como a garantia de distribuição proporcional de recursos do fundo eleitoral para candidaturas negras, que começa a corrigir desigualdades estruturais na corrida eleitoral. Assim como o 20 de Novembro, símbolo nacional de resistência, memória e afirmação da identidade negra, os novos dados do TSE mostram que a luta pela igualdade se estende para dentro da política, um território que historicamente silenciou vozes negras. Agora, esses espaços passam a ser gradualmente transformados em arenas de presença, influência e decisão. Mais do que números, os dados revelam um movimento profundo: a democracia brasileira se torna, pouco a pouco, mais parecida com o próprio povo que representa.",
-    author: "Ministério da Saúde",
-    link: "https://www.gov.br/saude/",
+    author: "Átila Neto",
+    link: "https://www.tse.jus.br/eleicoes/estatisticas",
   },
   {
     id: "dados-7",
